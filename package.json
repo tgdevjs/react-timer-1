@@ -1,7 +1,7 @@
 {
-  "name": "react-weather-1",
+  "name": "react-timer-1",
   "version": "1.0.0",
-  "description": "react weather app with navbar.",
+  "description": "react timer with tests using karma.",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
@@ -39,6 +39,7 @@
     "karma-mocha-reporter": "^2.0.0",
     "karma-sourcemap-loader": "^0.3.7",
     "karma-webpack": "^1.7.0",
-    "mocha": "^2.4.5"
+    "mocha": "^2.4.5",
+    "react-addons-test-utils": "^15.3.0"
   }
 }

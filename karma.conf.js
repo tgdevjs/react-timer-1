@@ -7,12 +7,12 @@ module.exports = function (config) {
     frameworks: ['mocha'],
     files: ['src/tests/**/*.test.jsx'],
     preprocessors: {
-      'src/test/**/*.test.jsx': ['webpack', 'sourcemap']
+      'src/tests/**/*.test.jsx': ['webpack', 'sourcemap']
     },
     reporters: ['mocha'],
     client: {
       mocha: {
-        tiemout: '5000'
+        timeout: '5000'
       }
     },
     webpack: webpackConfig,
