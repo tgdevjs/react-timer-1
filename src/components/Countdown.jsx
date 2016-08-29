@@ -10,6 +10,9 @@ var Countdown = React.createClass({
       countdownStatus: 'stopped'
     };
   },
+  componentWillUnmount: function () {
+    this.stopTimer();
+  },
   componentDidUpdate: function (prevProps, prevState) {
     if (this.state.countdownStatus != prevState.countdownStatus) {
       switch(this.state.countdownStatus) {
