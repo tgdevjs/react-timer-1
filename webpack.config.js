@@ -33,6 +33,7 @@ module.exports = {
       Timer: 'src/components/Timer.jsx',
       Countdown: 'src/components/Countdown.jsx',
       CountdownForm: 'src/components/CountdownForm.jsx',
+      Controls: 'src/components/Controls.jsx',
       Clock: 'src/components/Clock.jsx',
       applicationStyle: 'src/styles/app.scss'
     },
